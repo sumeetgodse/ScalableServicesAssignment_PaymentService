@@ -1,4 +1,4 @@
-# Scalable Services - Payments Microservice
+## Scalable Services - Payments Microservice
 
 ### TODO : call notifications API after payment success/failure
 
