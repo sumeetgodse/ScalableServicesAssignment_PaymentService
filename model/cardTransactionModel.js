@@ -15,18 +15,14 @@ const cardTransactionSchema = new mongoose.Schema({
     },
     cvv: {
         required: true,
-        type: Number
+        type: String
     },
     cardExpiry: {
         required: true,
         type: String
     },
-    transactionStatus:{
-        required: true,
-        type: String
-    },
-    transactionDate:{
-        required: true,
+    transactionDate: {
+        required: false,
         type: String
     }
 })

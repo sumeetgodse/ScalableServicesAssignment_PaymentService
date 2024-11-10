@@ -1,5 +1,7 @@
 # Scalable Services - Payments Microservice
 
+### TODO : call notifications API after payment success/failure
+
 #### Steps to run locally
 
 - Clone this project

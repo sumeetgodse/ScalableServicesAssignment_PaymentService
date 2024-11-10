@@ -13,12 +13,8 @@ const upiTransactionSchema = new mongoose.Schema({
         required: true,
         type: String
     },
-    transactionStatus:{
-        required: true,
-        type: String
-    },
-    transactionDate:{
-        required: true,
+    transactionDate: {
+        required: false,
         type: String
     }
 })
