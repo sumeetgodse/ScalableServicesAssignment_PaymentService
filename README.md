@@ -15,12 +15,12 @@ https://www.mongodb.com/try/download/community
 
 ### Pay via CARD example with Postman
 #### SUCCESS
-![image](https://github.com/user-attachments/assets/2863c52e-b012-4593-ae5a-4c90cff7d46f)
+![image](https://github.com/user-attachments/assets/56325cb0-c7ac-4ec8-9912-5843b35c72b9)
 #### FAILED
-![image](https://github.com/user-attachments/assets/f1b596a9-7e17-4a2e-b4fb-d4526916177f)
+![image](https://github.com/user-attachments/assets/193d3845-23da-43b8-8075-a32d0621004c)
 
 ### Pay via UPI example with Postman
 #### SUCCESS
-![image](https://github.com/user-attachments/assets/5f76b70e-5d9c-49ff-9866-980249a17751)
+![image](https://github.com/user-attachments/assets/2187eef6-bf20-40c9-a127-1da1d053d824)
 #### FAILED
-![image](https://github.com/user-attachments/assets/4c7a0f64-90c0-467d-870e-0d9363eff017)
+![image](https://github.com/user-attachments/assets/76518cff-381c-4646-8bd1-69d4991c85d3)
