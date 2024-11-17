@@ -12,10 +12,32 @@ router.post('/', async (req, res) => {
     })
     try {
         await upiTransactionData.save();
-        // TODO : make a Notifications API call for payment SUCCESS
+        // make a Notifications API call for payment SUCCESS
+        await fetch('http://localhost:3006/notify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                "userId": req.body.userId,
+                "orderId": req.body.orderId,
+                "message": "UPI Payment SUCCESS!"
+            }),
+        });
         res.status(200).json({ message: "Payment SUCCESS!" })
     } catch (error) {
-        // TODO : make a Notifications API call for payment FAILED
+        // make a Notifications API call for payment FAILED
+        await fetch('http://localhost:3006/notify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                "userId": req.body.userId,
+                "orderId": req.body.orderId,
+                "message": "UPI Payment FAILED!"
+            }),
+        });
         res.status(400).json({ message: "Payment FAILED!", errorMessage: error.message })
     }
 })
