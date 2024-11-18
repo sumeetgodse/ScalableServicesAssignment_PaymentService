@@ -1,6 +1,6 @@
 ## Scalable Services - Payments Microservice
 
-### TODO : call notifications API after payment success/failure
+### This service further calls the [Email-Notification-Microservice]([https://pages.github.com/](https://github.com/sumeetgodse/ScalableServicesAssignment_NotificationService))
 
 #### Steps to run locally
 
