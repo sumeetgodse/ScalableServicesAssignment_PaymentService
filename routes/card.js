@@ -12,6 +12,7 @@ router.post('/', async (req, res) => {
         cardExpiry: req.body.cardExpiry,
         transactionDate: new Date().toISOString()
     })
+    console.log(cardTransactionData)
     try {
         await cardTransactionData.save();
         // make a Notifications API call for payment SUCCESS
@@ -41,6 +42,7 @@ router.post('/', async (req, res) => {
             }),
         });
         res.status(400).json({ message: "Payment FAILED!", errorMessage: error.message })
+        console.log(error.message)
     }
 })
 

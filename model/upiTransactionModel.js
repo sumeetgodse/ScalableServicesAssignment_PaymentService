@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const upiTransactionSchema = new mongoose.Schema({
     userId: {
         required: true,
-        type: String
+        type: String || Number
     },
     upiNumber: {
         required: true,

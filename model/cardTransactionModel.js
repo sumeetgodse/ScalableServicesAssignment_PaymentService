@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cardTransactionSchema = new mongoose.Schema({
     userId: {
         required: true,
-        type: String
+        type: String || Number
     },
     cardNum: {
         required: true,
