@@ -1,6 +1,6 @@
 ## Scalable Services - Payments Microservice
 
-### This service further calls the [Email-Notification-Microservice]([https://pages.github.com/](https://github.com/sumeetgodse/ScalableServicesAssignment_NotificationService)
+### This service further calls the [Email-Notification-Microservice](https://github.com/sumeetgodse/ScalableServicesAssignment_NotificationService)
 
 #### Steps to run locally
 
